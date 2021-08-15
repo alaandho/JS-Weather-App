@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #222;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.desc {
+    text-transform: capitalize;
+}
+
+
+.container {
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 230px;
+    max-width: 420px;
+    margin: 1em;
+}
+
+#search_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.button {
+    margin: 0.5em;
+    border-radius: 22px;
+    border: none;
+    height: 25px;
+    width: 60px;
+    font-size: 70%;
+}
+
+
+input#cityName.search-bar {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 22px;
+    background:#8080802b;
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+    width: 150px
+}
